@@ -1,7 +1,7 @@
 # Steg — ENS at the edges
-**DNS import · Subsidy policy · Passkey identity**
+**DNS import · Subsidy Contract · Passkey Controller**
 
-We build the bridges where ENS meets the rest of the world: DNS pipes, passkey controllers, and the DAO law that makes them adoptable. Every deliverable ships with calldata, on-chain receipts, and a veto window so delegates vote on finished work — not promises.
+We build the bridges where ENS meets the rest of the world: DNS-verified TLD imports, a programmable subsidy engine, and passkey controllers for agent identity. Every deliverable ships with calldata, on-chain receipts, and a veto window so delegates vote on finished work — not promises.
 
 ## Playbooks
 
@@ -11,18 +11,17 @@ Programmable TLD assignment so 1,166+ post-2012 gTLDs can claim ENS names under 
 
 ### ENS Subsidy Contract (W1)
 DAO-programmable fee waivers so subsidies, DNS imports, or agent registrations can be funded without manual refunds.
-- [`RFC`](https://discuss.ens.domains/t/rfc-introducing-a-subsidy-contract/21881) · audit + gas benchmark appendix in progress
+- [`RFC`](https://discuss.ens.domains/t/rfc-introducing-a-subsidy-contract/21881) · gas benchmark appendix in progress
 
 ### WebAuthn Controller (W3 — roadmap)
 ENS names as passkey controllers so software agents can authenticate with P-256 credentials anchored to ENS records.
 - [`RFC`](https://discuss.ens.domains/t/rfc-webauthn-credential-resolver-for-ens/21972) · integrating Daimo/Clave learnings before implementation
 
 ### Governance workflow
-RFC → Temp Check → Executable, with calldata + repos published in the open (dao-proposals repo migrating into this org). Quarterly reports will track receipts, audits, and adoption metrics.
+RFC → Temp Check → Executable, with calldata + repos published in the open ([dao-proposals](https://github.com/steg-eth/dao-proposals) · [dao-audits](https://github.com/steg-eth/dao-audits)). Quarterly reports will track receipts, audits, and adoption metrics.
 
 ## Engage
-- Review the RFCs, tag `@estmcmxci.eth` or `@Steg` on the forum, and veto if the law is wrong.
+- Review the RFCs, tag `@estmcmxci.eth` or `@Steg` on the forum
 - Builders: follow the demos + specs, open issues, or co-own integrations.
 - Delegates: reach out if you want a walkthrough or co-sponsorship on any proposal.
 
-Docs + site coming soon (`docs.steg.eth`). Until then, this README + the RFC threads are the canonical references.
