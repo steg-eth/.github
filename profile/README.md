@@ -1,5 +1,5 @@
 # Steg — ENS at the edges
-**DNS bridges · Subsidy contract · WebAuthn controller**
+**DNS import · Subsidy policy · Passkey identity**
 
 We build the bridges where ENS meets the rest of the world: DNS pipes, passkey controllers, and the DAO law that makes them adoptable. Every deliverable ships with calldata, on-chain receipts, and a veto window so delegates vote on finished work — not promises.
 
