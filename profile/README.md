@@ -8,7 +8,7 @@
 - Identity, authorship, and provenance are easily forged
 - URLs, usernames, and "official" sources are no longer trustworthy by default
 
-While generation is abundant, verification is scarce — and closing that asymmetry is what our work is for.
+While generation is abundant, verification is scarce — our work exactly addresses this asymmetry.
 
 The design principle is simple: **data at the edge, trust at the root.**
 
@@ -23,15 +23,15 @@ so delegates vote on finished work, not promises.
 
 ---
 
-## Agent verification & revocation — *SPP3*
+## ENS Verification and Revocation Toolkit for Managed Agent Runtimes (MARPs) — *SPP3*
 
-Our **Service Provider Program (SPP3)** proposal, and our primary focus. We're
-productionizing the **Authority tier** of the MAIP stack: a **Verifier + per-name
+We're productionizing the **Authority tier** of the MAIP stack: a **Verifier + per-name
 AuthResolver**, a **TypeScript SDK**, a **conformance suite**, and integration guides
 that let any service confirm — in real time — whether an action attributed to an
 ENS-named agent is currently **authorized**, and whether the credential behind it has
-been **rotated, expired, or revoked**. Built on ENSv2 primitives; complements core ENS
-Labs work.
+been **rotated, expired, or revoked**. 
+
+Built on ENSv2 primitives; complements core ENS Labs work.
 
 - Thesis: [The next operator class — Managed Agent Runtime Platforms](https://discuss.ens.domains/t/the-next-operator-class-managed-agent-runtime-platforms/22121)
 - Application + spec: [`steg-eth/spp3`](https://github.com/steg-eth/spp3)
@@ -66,3 +66,4 @@ merged and shipped in **v1.7.0**. Our fork: [`steg-eth/ens-contracts`](https://g
 - **Delegates** — reach out for a walkthrough or co-sponsorship on any proposal.
 - **Builders** — follow the specs and demos, open issues, or co-own integrations.
 - Tag **`@estmcmxci.eth`** on the [ENS forum](https://discuss.ens.domains).
+
