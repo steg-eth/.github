@@ -10,16 +10,15 @@
 
 While generation is abundant, verification is scarce — our work exactly addresses this asymmetry.
 
-The design principle is simple: **data at the edge, trust at the root.**
+We've identified **Managed Agent Runtime Platforms (MARPs)** as the next operator class. By enabling a new payload type — authority-policy records — and the verification path for it, we let agents transact reliably across MARPs.
 
 **ENS is the natural substrate for this emerging operator class, but it currently lacks a standardized, resolver-native "agent trust runtime" for dynamic control, validity, permissions, and portable reputation.**
 
-We've identified **Managed Agent Runtime Platforms (MARPs)** as the next operator class. By enabling a new payload type — authority-policy records — and the verification path for it, we let agents transact reliably across MARPs.
+Solving identity-shaped problems is how ENS has proven useful and grown before — the canonical case being [Coinbase issuing `cb.id` subnames at scale](https://ens.domains/blog/post/coinbase-strategic-integration-of-ens). 
 
-Solving identity-shaped problems is how ENS has proven useful and grown before — the canonical case being Coinbase issuing `cb.id` subnames at scale. By naming MARPs as the new operator class, we're building the verification-and-revocation toolkit that lets developers turn subname issuance into **Managed Agent Identity Platforms (MAIPs)** for those MARPs — making ENS the open, vendor-neutral authority substrate for the agent economy.
+By naming MARPs as the new operator class, we're building the verification-and-revocation toolkit that lets developers turn subname issuance into **Managed Agent Identity Platforms (MAIPs)** for those MARPs — making ENS the open, vendor-neutral authority substrate for the agent economy.
 
-Every deliverable ships with a spec, calldata or on-chain receipts, and a veto window —
-so delegates vote on finished work, not promises.
+The design principle is simple: **data at the edge, trust at the root.**
 
 ---
 
@@ -34,8 +33,8 @@ been **rotated, expired, or revoked**.
 Built on ENSv2 primitives; complements core ENS Labs work.
 
 - Thesis: [The next operator class — Managed Agent Runtime Platforms](https://discuss.ens.domains/t/the-next-operator-class-managed-agent-runtime-platforms/22121)
-- Application + spec: [`steg-eth/spp3`](https://github.com/steg-eth/spp3)
-- Read-only pilot (record-publishing + resolution path), draft PR: [`BankrBot/skills#189`](https://github.com/BankrBot/skills/pull/189) · [verified run log](https://gist.github.com/estmcmxci/3e8396cbad2faa66685bb423afc212b9)
+- Application + spec: `[steg-eth/spp3](https://github.com/steg-eth/spp3)`
+- Read-only pilot (record-publishing + resolution path), draft PR: `[BankrBot/skills#189](https://github.com/BankrBot/skills/pull/189)` · [verified run log](https://gist.github.com/estmcmxci/3e8396cbad2faa66685bb423afc212b9)
 
 ## TLDMinter — DNS-verified TLD assignment *(DAO governance track)*
 
@@ -45,25 +44,25 @@ rollout: Phase 1 deploys with execution disabled; the DAO flips `executionEnable
 Phase 2 after ratifying review procedures.
 
 - [RFC](https://discuss.ens.domains/t/rfc-scaling-tld-assignment-with-dns-verified-dao-governed-allocation/21859) · [Temp Check: Authorize TLDMinter as Root Controller](https://discuss.ens.domains/t/temp-check-authorize-tldminter-as-root-controller/22020)
-- [`dao-proposals`](https://github.com/steg-eth/dao-proposals) — executable proposals: calldata, tests, rationale
-- [`dao-audits`](https://github.com/steg-eth/dao-audits) — independent bytecode-verification artifacts
-- [`dnssec-solutions`](https://github.com/steg-eth/dnssec-solutions) — EIP-7951 precompile demonstrations
+- `[dao-proposals](https://github.com/steg-eth/dao-proposals)` — executable proposals: calldata, tests, rationale
+- `[dao-audits](https://github.com/steg-eth/dao-audits)` — independent bytecode-verification artifacts
+- `[dnssec-solutions](https://github.com/steg-eth/dnssec-solutions)` — EIP-7951 precompile demonstrations
 
 ---
 
 ## Core protocol contribution
 
-We contribute to canonical ENS contracts: [`ensdomains/ens-contracts#509`](https://github.com/ensdomains/ens-contracts/pull/509),
-merged and shipped in **v1.7.0**. Our fork: [`steg-eth/ens-contracts`](https://github.com/steg-eth/ens-contracts).
+We contribute to canonical ENS contracts: `[ensdomains/ens-contracts#509](https://github.com/ensdomains/ens-contracts/pull/509)`,
+merged and shipped in **v1.7.0**. Our fork: `[steg-eth/ens-contracts](https://github.com/steg-eth/ens-contracts)`.
 
 ## Team
 
-- **`estmcmxci.eth`** — ENS architecture, specifications, and ecosystem integration.
-- **`mouzayan.eth`** — protocol engineering, smart-contract delivery, and security.
+- `**estmcmxci.eth`** — ENS architecture, specifications, and ecosystem integration.
+- `**mouzayan.eth*`* — protocol engineering, smart-contract delivery, and security.
 
 ## Engage
 
 - **Delegates** — reach out for a walkthrough or co-sponsorship on any proposal.
 - **Builders** — follow the specs and demos, open issues, or co-own integrations.
-- Tag **`@estmcmxci.eth`** on the [ENS forum](https://discuss.ens.domains).
+- Tag `**@estmcmxci.eth`** on the [ENS forum](https://discuss.ens.domains).
 
