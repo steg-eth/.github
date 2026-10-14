@@ -32,5 +32,5 @@ Protocol engineering for ENS at the edges.
 
 ## Engage
 
-- Tag **@estmcmxci.eth** on the [ENS forum](https://discuss.ens.domains)
+- Tag **@estmcmxci** on the [ENS forum](https://discuss.ens.domains)
 - steglabs@gmail.com
